@@ -36,7 +36,7 @@ confirmButton.addEventListener(`click`,function(){
     let numeroPnr = Math.round(Math.random()*1000);
     console.log(numeroPnr);
     pnrReservation.innerText = `L`+ numeroPnr +`P`;
-    totalPrice.innerText = price.toFixed(2);
+    totalPrice.innerText = price.toFixed(2)+ `€`;
 
    }
   else if(ageInput.value === `over65`){
@@ -51,7 +51,7 @@ confirmButton.addEventListener(`click`,function(){
     let numeroPnr = Math.round(Math.random()*1000);
     console.log(numeroPnr);
     pnrReservation.innerText = `V`+ numeroPnr +`N`;
-    totalPrice.innerText = price.toFixed(2);
+    totalPrice.innerText = price.toFixed(2)+ `€`;
   
 }
 else{
@@ -63,7 +63,7 @@ else{
     let numeroPnr = Math.round(Math.random()*1000);
     console.log(numeroPnr);
     pnrReservation.innerText = `F`+ numeroPnr +`G`;
-    totalPrice.innerText = price.toFixed(2);
+    totalPrice.innerText = price.toFixed(2)+ `€`;
 }
 }
 )

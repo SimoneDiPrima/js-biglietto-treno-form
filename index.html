@@ -20,16 +20,18 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="row justify-content-between mt-5 ">
-                            <div class="col-3">
+                            <div class="col-4">
+                                <h6 class="text-primary">NOMINATIVO</h6>
                                 <input type="text" id="Nameinput" class="bg-primary text-white" placeholder="Name">
 
                             </div>
-                            <div class="col-2">
-                               
-                             <input type="number" id="distanceinput"  class="bg-primary text-white" placeholder="20">
+                            <div class="col-4">
+                                <h6 class="text-primary">KM DA PERCORRERE</h6>
+                             <input type="number" id="distanceinput"  class="bg-primary text-white" min="1" placeholder="20">
 
                             </div>
-                           <div class="col-3 offset-1">
+                           <div class="col-4">
+                            <h6 class="text-primary">TARIFFA</h6>
                             <select class="form-select bg-primary text-white" id="eta" aria-label="Default select example">
                                 <option value="minorenni">Minorenni</option>
                                 <option value="adulti">Adulti</option>
@@ -51,7 +53,7 @@
                             
                                     <div class="col">
                                         <div class="card-header">
-                                            <h5>NOME PAX</h5>
+                                            <h5>NOME</h5>
                                         </div>
                                        <div  id="nomePax" class="card-body"></div>
                                     </div>
@@ -77,7 +79,7 @@
                                     </div>
                                     <div class="col">
                                         <div class="card-header">
-                                            <h5>PNR</h5>
+                                            <h5>PREZZO</h5>
                                         </div>
                                         <div id="final-price" class="card-body"></div>
                                     </div>
