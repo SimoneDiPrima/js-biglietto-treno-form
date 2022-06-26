@@ -10,6 +10,7 @@ const confirmButton = document.getElementById(`confirm-button`);
 const resetButton = document.getElementById(`reset-button`);
 
 let namePax = document.getElementById(`nomePax`);
+let discount = document.getElementById(`tariffa`);
 let car = document.getElementById(`car`);
 let pnrReservation = document.getElementById(`reservation`);
 let totalPrice = document.getElementById(`final-price`);
@@ -28,6 +29,7 @@ confirmButton.addEventListener(`click`,function(){
     price = (price/100) * 80;
     console.log(price);
     namePax.innerText = nameInput.value;
+    discount.innerText = ageInput.value;
     let numeroCar = Math.round(Math.random()*20-1);
     console.log(numeroCar);
     car.innerText = numeroCar;
