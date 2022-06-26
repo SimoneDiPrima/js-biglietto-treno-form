@@ -17,49 +17,55 @@
                     <div class="col-12">
                         <div class="row justify-content-between mt-5">
                             <div class="col">
-                                <input type="text" id="Name-input" placeholder="Name">
+                                <input type="text" id="Nameinput" placeholder="Name">
 
                             </div>
                             <div class="col">
                                
-                             <input type="number" id="distance-input" placeholder="20">
+                             <input type="number" id="distanceinput" placeholder="20">
 
                             </div>
                            <div class="col">
-                                <select id="age-input" name="" id="">
-                                    <option value="Minorenne" >Minorenne</option>
-                                    <option value="Adulto">Adulto</option>
-                                    <option value="Over 65">Over 65</option>
-                                </select>
+                            <select class="form-select" id="eta" aria-label="Default select example">
+                                <option value="minorenni">Minorenni</option>
+                                <option value="adulti">Adulti</option>
+                                <option value="over65">Over65</option>
+                              </select>
                             </div>
                         </div>
-                        
-                        
+                    </div>
+                    <div>
                     </div>
                     <div class="col-12 mt-5 text-end">
                         <button class="btn btn-primary" id="confirm-button">Conferma</button>
-                        <button class="btn btn-secondary" id="reset-button">Annulla</button>
+                        <button class="btn btn-warning" id="reset-button">Annulla</button>
                     </div>
                     <div class="col-12 mt-5">
                         <div class="card">
                             <div class="card-header">
                                 <div class="row text-center">
                             
-                                    <div class="col">nome passeggero</div>
-                                    <div class="col">carrozza</div>
-                                    <div class="col">pnr</div>
-                                    <div class="col">prezzo</div>
+                                    <div class="col">
+                                       <h5>NOME PASSEGGERO</h5>
+                                       <div  id="nomePax"></div>
+                                    </div>
+                                    <div class="col">
+                                        <h5>CARROZZA</h5>
+                                        <div id="car"></div>
+                                    </div>
+                                    <div class="col">
+                                        <h5>PNR</h5>
+                                        <div id="reservation"></div>
+
+                                    </div>
+                                    <div class="col">
+                                        <h5>PREZZO</h5>
+                                        <div id="final-price"></div>
+                                    </div>
                                 </div>
-
-                            </div>
-                            <div class="card-body">
-                                <input type="text">
-                                <input type="number">
-                                <input type="number">
-                                <input type="number">
-
                             </div>
                         </div>
+                        <button class="btn btn-danger  offset-11 mt-5">Acquista</button>
                     </div>
                   
                 </div>
